@@ -1,0 +1,17 @@
+课程编号：CS2103T
+课程名称：Software Engineering
+课程介绍：This course introduces software engineering principles, software development processes, testing, project management, and teamwork.
+适合方向：软件工程、计算机科学
+先修要求：需要具备基础编程能力。
+
+课程编号：CS2030S
+课程名称：Programming Methodology II
+课程介绍：This course covers object-oriented programming, abstraction, inheritance, interfaces, and advanced programming practices.
+适合方向：计算机科学、软件开发
+先修要求：需要具备基础编程能力。
+
+课程编号：CS3244
+课程名称：Machine Learning
+课程介绍：This course introduces supervised learning, unsupervised learning, model evaluation, and fundamental machine learning algorithms.
+适合方向：人工智能、机器学习、数据科学
+先修要求：需要具备编程、概率和线性代数基础。
