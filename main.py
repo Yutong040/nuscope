@@ -3,44 +3,50 @@ from dotenv import load_dotenv
 from crewai import Agent, Crew, Process, Task
 from crewai.llm import LLM
 import os 
+import json
+from tools.course_search import search_courses
 
 load_dotenv()
 
 llm = LLM(
-    model=f"openai/{os.getenv('MODEL_NAME')}",
-    api_key=os.getenv("MODEL_API_KEY"),
-    base_url=os.getenv("MODEL_BASE_URL"),
+    model=f"openai/{os.getenv('SOCLAAS_MODEL')}",
+    api_key=os.getenv("SOCLAAS_API_KEY"),
+    base_url=os.getenv("SOCLAAS_BASE_URL"),
 )
 
-course_data = Path("data/courses.txt").read_text(encoding="utf-8")
+course_data = json.loads(
+    Path("data/courses.json").read_text(encoding="utf-8")
+)
+course_text = json.dumps(course_data, ensure_ascii=False, indent=2)
 
 course_advisor = Agent(
     role="NUS Course Advisor",
-    goal="Answer questions about NUS courses using only the provided course data",
-    backstory="You are a careful academic advisor.",
+    goal="Help students find suitable courses based on reliable course data",
+    backstory=(
+        "You are an NUS academic advisor. "
+        "You must only use the courses returned by the search tool."
+    ),
     llm=llm,
+    tools=[search_courses],
     verbose=True,
 )
-
 question = input("请输入你的课程问题：")
 
 task = Task(
     description=f"""
-    请根据下面的课程资料回答用户问题：
+    用户问题：{question}
 
-    用户问题：
-    {question}
-
-    课程资料：
-    {course_data}
+    请先使用 course_search 工具检索相关课程，再回答用户。
 
     要求：
-1. 只能使用提供的课程资料。
-    2. 不得编造课程信息。
-    3. 资料中没有答案时，请明确说“提供的资料中没有相关信息”。
-    4. 给出清晰、简洁的中文回答。
+    1. 必须先检索课程。
+    2. 只能使用工具返回的数据。
+    3. 不得编造课程信息。
+    4. 返回课程编号、名称、相关方向和先修要求。
+    5. 如果没有匹配结果，明确说明没有找到相关课程。
+    6. 使用中文回答。
     """,
-    expected_output="一份基于课程资料的中文回答。",
+    expected_output="一份基于检索结果的中文课程建议。",
     agent=course_advisor,
 )
 

@@ -1,0 +1,23 @@
+[
+  {
+    "code": "CS2103T",
+    "name": "Software Engineering",
+    "description": "This course introduces software engineering principles, software development processes, testing, project management, and teamwork.",
+    "directions": ["Software Engineering", "Computer Science"],
+    "prerequisites": ["Basic programming"]
+  },
+  {
+    "code": "CS2030S",
+    "name": "Programming Methodology II",
+    "description": "This course covers object-oriented programming, abstraction, inheritance, interfaces, and advanced programming practices.",
+    "directions": ["Computer Science", "Software Development"],
+    "prerequisites": ["Basic programming"]
+  },
+  {
+    "code": "CS3244",
+    "name": "Machine Learning",
+    "description": "This course introduces supervised learning, unsupervised learning, model evaluation, and fundamental machine learning algorithms.",
+    "directions": ["Artificial Intelligence", "Machine Learning", "Data Science"],
+    "prerequisites": ["Programming", "Probability", "Linear Algebra"]
+  }
+]
