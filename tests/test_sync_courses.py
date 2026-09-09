@@ -43,3 +43,18 @@ def test_validate_courses_rejects_missing_name():
         assert "缺少课程名称" in str(exc)
     else:
         raise AssertionError("Expected validation to fail")
+
+
+def test_parse_courses_can_collect_all_cs_courses():
+    html = """
+    <table>
+      <tr><th>Module Code</th><th>Module Title</th><th>Units</th></tr>
+      <tr><td>CS2030S</td><td>Programming Methodology II</td><td>Units = 4</td></tr>
+      <tr><td>CS3244</td><td>Machine Learning</td><td>Units = 4</td></tr>
+      <tr><td>MA1521</td><td>Calculus</td><td>Units = 4</td></tr>
+    </table>
+    """
+
+    courses = parse_courses(html, None, "https://example.com/courses")
+
+    assert [course["code"] for course in courses] == ["CS2030S", "CS3244"]

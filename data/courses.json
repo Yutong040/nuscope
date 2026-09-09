@@ -1,7 +1,467 @@
 [
   {
+    "code": "CS1010",
+    "name": "Programming Methodology",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS1010A",
+    "name": "Programming Methodology",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS1010E",
+    "name": "Programming Methodology",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS1010S",
+    "name": "Programming Methodology",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS1010X",
+    "name": "Programming Methodology (iBLOC Course, not for Undergraduate, offered from Jan - Jun. Details at https://www.nus.edu.sg/ibloc/iBLOC.html)",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS1101S",
+    "name": "Programming Methodology",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS1231",
+    "name": "Discrete Structures",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS1231S",
+    "name": "Discrete Structures",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2030",
+    "name": "Programming Methodology II",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
     "code": "CS2030S",
     "name": "Programming Methodology II",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2040",
+    "name": "Data Structures and Algorithms",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2040C",
+    "name": "Data Structures and Algorithms",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2040S",
+    "name": "Data Structures and Algorithms",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2100",
+    "name": "Computer Organisation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2101",
+    "name": "Effective Communication for Computing Professionals",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2102",
+    "name": "Database Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2103",
+    "name": "Software Engineering",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2103T",
+    "name": "Software Engineering",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2104",
+    "name": "Programming Language Concepts",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2105",
+    "name": "Introduction to Computer Networks",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2106",
+    "name": "Introduction to Operating Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2107",
+    "name": "Introduction to Information Security",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2108",
+    "name": "Introduction to Media Computing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2109S",
+    "name": "Introduction to AI and Machine Learning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2111",
+    "name": "Human-Centred Computing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2113",
+    "name": "Software Engineering & Object-Oriented Programming",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2220",
+    "name": "Introduction to Computational Biology",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2251",
+    "name": "Optimization for Machine Learning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS2309",
+    "name": "CS Research Methodology",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3103",
+    "name": "Computer Networks Practice",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3210",
+    "name": "Parallel Computing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3211",
+    "name": "Concurrent Programming",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3213",
+    "name": "Software Requirements Specification and Validation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3216",
+    "name": "Software Product Engineering for Digital Markets",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 5,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3219",
+    "name": "Software Design and Architecture",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3223",
+    "name": "Database Systems Implementation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3227",
+    "name": "Agentic Software Engineering",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3230",
+    "name": "Design and Analysis of Algorithms",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3231",
+    "name": "Theory of Computation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3233",
+    "name": "Competitive Programming",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3234",
+    "name": "Logic for Proofs and Programs",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3235",
+    "name": "Computer Security",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3236",
+    "name": "Introduction to Information Theory",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3237",
+    "name": "Introduction to Internet of Things",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3240",
+    "name": "Interaction Design",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3241",
+    "name": "Computer Graphics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3242",
+    "name": "3D Modeling and Animation",
     "description": "",
     "directions": [],
     "prerequisites": [],
@@ -22,6 +482,996 @@
   {
     "code": "CS3244",
     "name": "Machine Learning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3247",
+    "name": "Game Development",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3249",
+    "name": "Conversational User Interface",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3263",
+    "name": "Foundations of Artificial Intelligence",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3264",
+    "name": "Foundations of Machine Learning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3268",
+    "name": "Responsible AI: from Algorithms to Impact",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3281",
+    "name": "Software Engineering for Evolving Production Systems I",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS3282",
+    "name": "Software Engineering for Evolving Production Systems II",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4211",
+    "name": "Formal Methods for Software Engineering",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4212",
+    "name": "Compiler Design",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4215",
+    "name": "Programming Language Implementation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4218",
+    "name": "Software Testing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4220",
+    "name": "Knowledge Discovery Methods in Bioinformatics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4221",
+    "name": "Database Applications Design and Tuning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4222",
+    "name": "Wireless Networking",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4223",
+    "name": "Multi-core Architectures",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4224",
+    "name": "Distributed Databases",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4225",
+    "name": "Big Data Systems for Data Science",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4226",
+    "name": "Internet Architecture",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4230",
+    "name": "Foundations of Modern Cryptography",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4231",
+    "name": "Parallel and Distributed Algorithms",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4234",
+    "name": "Optimisation Algorithms",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4236",
+    "name": "Cryptography in Practice: Systems and Applications",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4238",
+    "name": "Computer Security Practice",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4239",
+    "name": "Software Security",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4240",
+    "name": "Interaction Design for Virtual and Augmented Reality",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4243",
+    "name": "Computer Vision and Pattern Recognition",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4246",
+    "name": "Reinforcement Learning and Sequential Decision Making",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4247",
+    "name": "Graphics Rendering Techniques",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4248",
+    "name": "Introduction to Large Language Models",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4249",
+    "name": "Quantitative Methods of Human-Computer Interaction",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4261",
+    "name": "Algorithmic Mechanism Design",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4262",
+    "name": "Machine Learning Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4263",
+    "name": "Artificial Intelligence Principles",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4268",
+    "name": "Quantum Computing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4277",
+    "name": "3D Computer Vision",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4278",
+    "name": "Intelligent Robots: Algorithms and Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4330",
+    "name": "Combinatorial Methods in Bioinformatics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4350",
+    "name": "Game Development Project",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4352",
+    "name": "Industry Seminar in Cybersecurity",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 2,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4353",
+    "name": "Interactive Systems Development Project",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS4430",
+    "name": "Computational Complexity",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5218",
+    "name": "Principles and Practice of Program Analysis",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5219",
+    "name": "Automated Software Validation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5223",
+    "name": "Distributed Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5224",
+    "name": "Cloud Computing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5228",
+    "name": "Knowledge Discovery and Data Mining",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5229",
+    "name": "Advanced Computer Networks",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5230",
+    "name": "Computational Complexity",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5231",
+    "name": "Systems Security",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5233",
+    "name": "Simulation and Modelling Techniques",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5234",
+    "name": "Algorithms at Scale",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5239",
+    "name": "Performance Analysis of Computer Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5240",
+    "name": "Theoretical Foundations in MultiMedia",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5242",
+    "name": "Neural Networks and Deep Learning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5246",
+    "name": "Text Mining",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5250",
+    "name": "Advanced Operating Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5260",
+    "name": "Neural Networks and Deep Learning II",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5272",
+    "name": "Embedded Software Design",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5275",
+    "name": "The Algorithm Designer's Toolkit",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5284",
+    "name": "Graph Machine Learning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5321",
+    "name": "Network Security",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5322",
+    "name": "Database Security",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5330",
+    "name": "Randomized Algorithms",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5332",
+    "name": "Biometric Authentication",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5339",
+    "name": "Theory and Algorithms for Machine Learning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5340",
+    "name": "Uncertainty Modelling in AI",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5343",
+    "name": "Advanced Computer Animation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5344",
+    "name": "Big-Data Analytics Technology",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5346",
+    "name": "Information Visualisation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5421",
+    "name": "Database Applications Design and Tuning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5422",
+    "name": "Wireless Networking",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5424",
+    "name": "Distributed Databases",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5425",
+    "name": "Big Data Systems for Data Science",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5430",
+    "name": "Foundations of Modern Cryptography",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5439",
+    "name": "Software Security",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5446",
+    "name": "Reinforcement Learning and Sequential Decision Making",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5461",
+    "name": "Algorithmic Mechanism Design",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5462",
+    "name": "Machine Learning Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5477",
+    "name": "3D Computer Vision",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5478",
+    "name": "Intelligent Robots: Algorithms and Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS5562",
+    "name": "Trustworthy Machine Learning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6203",
+    "name": "Advanced Topics in Database Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6206",
+    "name": "Advanced Topics in Human-Computer Interaction",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6207",
+    "name": "Advanced Natural Language Processing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6208",
+    "name": "Advanced Topics in Artificial Intelligence",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6211",
+    "name": "Analytical Performance Modelling for Computer Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6215",
+    "name": "Advanced Topics in Program Analysis",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6216",
+    "name": "Advanced Topics in Machine Learning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6219",
+    "name": "Advanced Topics in Computer Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6222",
+    "name": "Advanced Topics in Computational Biology",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6223",
+    "name": "Advanced Topics in Software Testing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6230",
+    "name": "Topics in Information Security",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6231",
+    "name": "Advanced Topics in Security and Privacy",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6234",
+    "name": "Advanced Algorithms",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6235",
+    "name": "Advanced Topics in Theoretical Computer Science",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6240",
+    "name": "Multimedia Analysis",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6244",
+    "name": "Advanced Topics in Robotics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6282",
+    "name": "Topics in Computer Science: AI meets Science - Science-Inspired AI and AI for Science",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-09"
+  },
+  {
+    "code": "CS6283",
+    "name": "Topics in Computer Science: Robot Learning in the Era of Foundation Models",
     "description": "",
     "directions": [],
     "prerequisites": [],

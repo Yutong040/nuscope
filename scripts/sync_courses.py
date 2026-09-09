@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 
 
 DEFAULT_URL = "https://www.comp.nus.edu.sg/cug/soc-sched/"
-DEFAULT_CODES = {"CS2030S", "CS3243", "CS3244"}
+DEFAULT_PREFIX = "CS"
 OUTPUT_FILE = Path(__file__).parents[1] / "data" / "courses.json"
 CODE_PATTERN = re.compile(r"\b([A-Z]{2,4})\s*([0-9]{4}[A-Z]?)\b", re.I)
 
@@ -67,7 +67,7 @@ def load_existing() -> dict[str, dict[str, Any]]:
 
 def parse_courses(
     html: str,
-    wanted_codes: set[str],
+    wanted_codes: set[str] | None,
     source_url: str,
     existing: dict[str, dict[str, Any]] | None = None,
 ) -> list[dict]:
@@ -89,7 +89,9 @@ def parse_courses(
                 continue
 
             code = next((normalize_code(cell) for cell in cells), None)
-            if code not in wanted_codes:
+            if not code or not code.startswith(DEFAULT_PREFIX):
+                continue
+            if wanted_codes is not None and code not in wanted_codes:
                 continue
 
             values = dict.fromkeys(("name", "description", "prerequisites"), "")
@@ -131,6 +133,8 @@ def parse_courses(
                 "updated_at": updated_at,
             }
 
+    if wanted_codes is None:
+        wanted_codes = set(found)
     missing = wanted_codes - found.keys()
     if missing:
         raise RuntimeError(
@@ -151,9 +155,11 @@ def fetch(url: str, timeout: int = 20) -> str:
     return response.text
 
 
-def validate_courses(courses: list[dict], wanted_codes: set[str]) -> None:
+def validate_courses(courses: list[dict], wanted_codes: set[str] | None = None) -> None:
     actual_codes = {course.get("code") for course in courses}
-    if actual_codes != wanted_codes:
+    if not actual_codes:
+        raise RuntimeError("同步结果为空")
+    if wanted_codes is not None and actual_codes != wanted_codes:
         raise RuntimeError("同步结果中的课程编号不完整或包含额外课程")
     for course in courses:
         if not course.get("name"):
@@ -173,10 +179,18 @@ def write_atomically(courses: list[dict]) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--url", default=DEFAULT_URL)
-    parser.add_argument("--codes", nargs="+", default=sorted(DEFAULT_CODES))
+    parser.add_argument(
+        "--codes",
+        nargs="+",
+        help="只同步指定课程；不提供时同步页面中所有 CS 课程",
+    )
     args = parser.parse_args()
 
-    wanted_codes = {code.upper().replace(" ", "") for code in args.codes}
+    wanted_codes = (
+        {code.upper().replace(" ", "") for code in args.codes}
+        if args.codes
+        else None
+    )
     try:
         print(f"Fetching {args.url}")
         existing = load_existing()
@@ -188,7 +202,7 @@ def main() -> int:
         print("Existing data/courses.json was not changed.", file=sys.stderr)
         return 1
 
-    print(f"Fetched {len(courses)} courses: {', '.join(course['code'] for course in courses)}")
+    print(f"Fetched {len(courses)} courses")
     print(f"Updated {OUTPUT_FILE}")
     return 0
 
