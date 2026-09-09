@@ -1,28 +1,31 @@
 [
   {
     "code": "CS2030S",
-    "name": "Programming Methodology II Units = 4",
+    "name": "Programming Methodology II",
     "description": "",
     "directions": [],
     "prerequisites": [],
+    "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
     "updated_at": "2026-09-09"
   },
   {
     "code": "CS3243",
-    "name": "Introduction to Artificial Intelligence Units = 4",
+    "name": "Introduction to Artificial Intelligence",
     "description": "",
     "directions": [],
     "prerequisites": [],
+    "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
     "updated_at": "2026-09-09"
   },
   {
     "code": "CS3244",
-    "name": "Machine Learning Units = 4",
+    "name": "Machine Learning",
     "description": "",
     "directions": [],
     "prerequisites": [],
+    "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
     "updated_at": "2026-09-09"
   }

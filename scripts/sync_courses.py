@@ -8,6 +8,7 @@ import re
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any
 
 import requests
 from bs4 import BeautifulSoup
@@ -32,10 +33,10 @@ def normalize_code(value: str) -> str | None:
 
 def header_kind(value: str) -> str:
     value = clean(value).lower()
-    if "code" in value or "module" in value:
-        return "code"
     if "title" in value or "course name" in value or value == "name":
         return "name"
+    if "code" in value or "module code" in value:
+        return "code"
     if "description" in value or "brief" in value:
         return "description"
     if "prerequisite" in value or "pre-requisite" in value:
@@ -43,7 +44,33 @@ def header_kind(value: str) -> str:
     return "other"
 
 
-def parse_courses(html: str, wanted_codes: set[str], source_url: str) -> list[dict]:
+def extract_units(value: str) -> int | None:
+    match = re.search(r"\bunits?\s*=\s*(\d+)\b", value, re.I)
+    return int(match.group(1)) if match else None
+
+
+def clean_name(value: str) -> str:
+    return clean(re.sub(r"\s*units?\s*=\s*\d+\s*$", "", value, flags=re.I))
+
+
+def load_existing() -> dict[str, dict[str, Any]]:
+    if not OUTPUT_FILE.exists():
+        return {}
+    try:
+        data = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"现有 {OUTPUT_FILE} 不是有效 JSON：{exc}") from exc
+    if not isinstance(data, list):
+        raise RuntimeError(f"现有 {OUTPUT_FILE} 必须是 JSON 数组")
+    return {item["code"]: item for item in data if isinstance(item, dict) and item.get("code")}
+
+
+def parse_courses(
+    html: str,
+    wanted_codes: set[str],
+    source_url: str,
+    existing: dict[str, dict[str, Any]] | None = None,
+) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     found: dict[str, dict] = {}
     updated_at = datetime.now(UTC).date().isoformat()
@@ -66,10 +93,13 @@ def parse_courses(html: str, wanted_codes: set[str], source_url: str) -> list[di
                 continue
 
             values = dict.fromkeys(("name", "description", "prerequisites"), "")
+            units = None
             for index, cell in enumerate(cells):
                 kind = kinds[index] if index < len(kinds) else "other"
                 if kind in values and not values[kind]:
                     values[kind] = cell
+                if units is None:
+                    units = extract_units(cell)
 
             # If the page has no recognizable headers, use the cells after code
             # as a conservative fallback instead of inventing course content.
@@ -79,12 +109,24 @@ def parse_courses(html: str, wanted_codes: set[str], source_url: str) -> list[di
                 values["name"] = remaining[0] if remaining else ""
                 values["description"] = " ".join(remaining[1:])
 
+            previous = (existing or {}).get(code, {})
+            name = clean_name(values["name"])
+            if not name:
+                name = clean_name(str(previous.get("name", "")))
+            description = values["description"] or previous.get("description", "")
+            prerequisites = (
+                [values["prerequisites"]]
+                if values["prerequisites"]
+                else previous.get("prerequisites", [])
+            )
+
             found[code] = {
                 "code": code,
-                "name": values["name"],
-                "description": values["description"],
-                "directions": [],
-                "prerequisites": [values["prerequisites"]] if values["prerequisites"] else [],
+                "name": name,
+                "description": description,
+                "directions": previous.get("directions", []),
+                "prerequisites": prerequisites,
+                "credits": units if units is not None else previous.get("credits"),
                 "source_url": source_url,
                 "updated_at": updated_at,
             }
@@ -109,6 +151,15 @@ def fetch(url: str, timeout: int = 20) -> str:
     return response.text
 
 
+def validate_courses(courses: list[dict], wanted_codes: set[str]) -> None:
+    actual_codes = {course.get("code") for course in courses}
+    if actual_codes != wanted_codes:
+        raise RuntimeError("同步结果中的课程编号不完整或包含额外课程")
+    for course in courses:
+        if not course.get("name"):
+            raise RuntimeError(f"课程 {course['code']} 缺少课程名称")
+
+
 def write_atomically(courses: list[dict]) -> None:
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     temporary_file = OUTPUT_FILE.with_suffix(".json.tmp")
@@ -128,7 +179,9 @@ def main() -> int:
     wanted_codes = {code.upper().replace(" ", "") for code in args.codes}
     try:
         print(f"Fetching {args.url}")
-        courses = parse_courses(fetch(args.url), wanted_codes, args.url)
+        existing = load_existing()
+        courses = parse_courses(fetch(args.url), wanted_codes, args.url, existing)
+        validate_courses(courses, wanted_codes)
         write_atomically(courses)
     except (requests.RequestException, OSError, RuntimeError) as exc:
         print(f"Sync failed: {exc}", file=sys.stderr)
