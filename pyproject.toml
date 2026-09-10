@@ -13,3 +13,8 @@ dependencies = [
 
 [tool.uv.sources]
 crewai = { path = "../crewAI/lib/crewai", editable = true }
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

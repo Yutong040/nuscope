@@ -1,5 +1,345 @@
 [
   {
+    "code": "BT1101",
+    "name": "Introduction to Business Analytics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT2101",
+    "name": "Econometrics Modeling for Business Analytics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT2102",
+    "name": "Data Management and Visualisation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT3017",
+    "name": "Feature Engineering for Machine Learning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT3102",
+    "name": "Computational Methods for Business Analytics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT3103",
+    "name": "Application Systems Development for Business Analytics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4012",
+    "name": "Fraud Analytics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4013",
+    "name": "Analytics for Capital Market Trading and Investment",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4014",
+    "name": "Analytics Driven Design of Adaptive Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4015",
+    "name": "Geospatial Analytics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4016",
+    "name": "Risk Analytics for Financial Services",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4103",
+    "name": "Business Analytics Capstone Project",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 8,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4211",
+    "name": "Data-Driven Marketing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4212",
+    "name": "Search Engine Optimization and Analytics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4221",
+    "name": "Advanced Analytics with Big Data Technologies",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4222",
+    "name": "Mining Web Data for Business Insights",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4240",
+    "name": "Machine Learning for Predictive Data Analytics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4241",
+    "name": "Causal Impact Analytics for Business Applications",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT4301",
+    "name": "Business Analytics Solutions Development and Deployment",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT5110",
+    "name": "Data Management and Warehousing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT5126",
+    "name": "Hands-on with Business Analytics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT5151",
+    "name": "Advanced Analytics and Machine Learning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "BT5153",
+    "name": "Applied Machine Learning for Business Analytics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "CP1001",
+    "name": "Foundations of Innovation in Computing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 2,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "CP1002",
+    "name": "Frontiers of Innovation in Computing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 2,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "CP2106",
+    "name": "Independent Software Development Project (Orbital)",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "CP2107",
+    "name": "Independent Introduction to CS Research (Odyssey)",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "CP2201",
+    "name": "Journey of the Innovator",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 2,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "CP3201",
+    "name": "Industry Seminar for Computing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 2,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "CP4281",
+    "name": "Emerging Topics in Computing I: AI for Graphics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "CP4282",
+    "name": "Emerging Topics in Computing II: Gaussian Splatting",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "CP4283",
+    "name": "Emerging Topics in Computing III: Deep Generative Models",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "CP4284",
+    "name": "Emerging Topics in Computing IV: Large Language Model Reasoning Agents",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "CP4285",
+    "name": "Emerging Topics in Computing V: Modern Recommendation Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
     "code": "CS1010",
     "name": "Programming Methodology",
     "description": "",
@@ -7,7 +347,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS1010A",
@@ -17,7 +357,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS1010E",
@@ -27,7 +367,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS1010S",
@@ -37,7 +377,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS1010X",
@@ -47,7 +387,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS1101S",
@@ -57,7 +397,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS1231",
@@ -67,7 +407,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS1231S",
@@ -77,7 +417,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2030",
@@ -87,7 +427,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2030S",
@@ -97,7 +437,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2040",
@@ -107,7 +447,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2040C",
@@ -117,7 +457,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2040S",
@@ -127,7 +467,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2100",
@@ -137,7 +477,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2101",
@@ -147,7 +487,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2102",
@@ -157,7 +497,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2103",
@@ -167,7 +507,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2103T",
@@ -177,7 +517,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2104",
@@ -187,7 +527,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2105",
@@ -197,7 +537,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2106",
@@ -207,7 +547,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2107",
@@ -217,7 +557,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2108",
@@ -227,7 +567,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2109S",
@@ -237,7 +577,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2111",
@@ -247,7 +587,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2113",
@@ -257,7 +597,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2220",
@@ -267,7 +607,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2251",
@@ -277,7 +617,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS2309",
@@ -287,7 +627,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3103",
@@ -297,7 +637,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3210",
@@ -307,7 +647,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3211",
@@ -317,7 +657,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3213",
@@ -327,7 +667,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3216",
@@ -337,7 +677,7 @@
     "prerequisites": [],
     "credits": 5,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3219",
@@ -347,7 +687,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3223",
@@ -357,7 +697,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3227",
@@ -367,7 +707,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3230",
@@ -377,7 +717,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3231",
@@ -387,7 +727,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3233",
@@ -397,7 +737,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3234",
@@ -407,7 +747,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3235",
@@ -417,7 +757,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3236",
@@ -427,7 +767,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3237",
@@ -437,7 +777,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3240",
@@ -447,7 +787,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3241",
@@ -457,7 +797,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3242",
@@ -467,7 +807,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3243",
@@ -477,7 +817,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3244",
@@ -487,7 +827,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3247",
@@ -497,7 +837,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3249",
@@ -507,7 +847,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3263",
@@ -517,7 +857,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3264",
@@ -527,7 +867,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3268",
@@ -537,7 +877,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3281",
@@ -547,7 +887,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS3282",
@@ -557,7 +897,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4211",
@@ -567,7 +907,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4212",
@@ -577,7 +917,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4215",
@@ -587,7 +927,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4218",
@@ -597,7 +937,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4220",
@@ -607,7 +947,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4221",
@@ -617,7 +957,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4222",
@@ -627,7 +967,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4223",
@@ -637,7 +977,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4224",
@@ -647,7 +987,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4225",
@@ -657,7 +997,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4226",
@@ -667,7 +1007,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4230",
@@ -677,7 +1017,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4231",
@@ -687,7 +1027,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4234",
@@ -697,7 +1037,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4236",
@@ -707,7 +1047,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4238",
@@ -717,7 +1057,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4239",
@@ -727,7 +1067,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4240",
@@ -737,7 +1077,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4243",
@@ -747,7 +1087,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4246",
@@ -757,7 +1097,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4247",
@@ -767,7 +1107,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4248",
@@ -777,7 +1117,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4249",
@@ -787,7 +1127,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4261",
@@ -797,7 +1137,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4262",
@@ -807,7 +1147,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4263",
@@ -817,7 +1157,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4268",
@@ -827,7 +1167,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4277",
@@ -837,7 +1177,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4278",
@@ -847,7 +1187,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4330",
@@ -857,7 +1197,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4350",
@@ -867,7 +1207,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4352",
@@ -877,7 +1217,7 @@
     "prerequisites": [],
     "credits": 2,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4353",
@@ -887,7 +1227,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS4430",
@@ -897,7 +1237,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5218",
@@ -907,7 +1247,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5219",
@@ -917,7 +1257,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5223",
@@ -927,7 +1267,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5224",
@@ -937,7 +1277,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5228",
@@ -947,7 +1287,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5229",
@@ -957,7 +1297,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5230",
@@ -967,7 +1307,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5231",
@@ -977,7 +1317,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5233",
@@ -987,7 +1327,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5234",
@@ -997,7 +1337,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5239",
@@ -1007,7 +1347,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5240",
@@ -1017,7 +1357,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5242",
@@ -1027,7 +1367,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5246",
@@ -1037,7 +1377,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5250",
@@ -1047,7 +1387,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5260",
@@ -1057,7 +1397,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5272",
@@ -1067,7 +1407,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5275",
@@ -1077,7 +1417,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5284",
@@ -1087,7 +1427,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5321",
@@ -1097,7 +1437,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5322",
@@ -1107,7 +1447,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5330",
@@ -1117,7 +1457,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5332",
@@ -1127,7 +1467,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5339",
@@ -1137,7 +1477,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5340",
@@ -1147,7 +1487,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5343",
@@ -1157,7 +1497,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5344",
@@ -1167,7 +1507,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5346",
@@ -1177,7 +1517,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5421",
@@ -1187,7 +1527,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5422",
@@ -1197,7 +1537,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5424",
@@ -1207,7 +1547,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5425",
@@ -1217,7 +1557,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5430",
@@ -1227,7 +1567,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5439",
@@ -1237,7 +1577,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5446",
@@ -1247,7 +1587,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5461",
@@ -1257,7 +1597,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5462",
@@ -1267,7 +1607,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5477",
@@ -1277,7 +1617,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5478",
@@ -1287,7 +1627,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS5562",
@@ -1297,7 +1637,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6203",
@@ -1307,7 +1647,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6206",
@@ -1317,7 +1657,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6207",
@@ -1327,7 +1667,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6208",
@@ -1337,7 +1677,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6211",
@@ -1347,7 +1687,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6215",
@@ -1357,7 +1697,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6216",
@@ -1367,7 +1707,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6219",
@@ -1377,7 +1717,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6222",
@@ -1387,7 +1727,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6223",
@@ -1397,7 +1737,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6230",
@@ -1407,7 +1747,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6231",
@@ -1417,7 +1757,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6234",
@@ -1427,7 +1767,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6235",
@@ -1437,7 +1777,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6240",
@@ -1447,7 +1787,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6244",
@@ -1457,7 +1797,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6282",
@@ -1467,7 +1807,7 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
   },
   {
     "code": "CS6283",
@@ -1477,6 +1817,556 @@
     "prerequisites": [],
     "credits": 4,
     "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS1108",
+    "name": "Digital and AI Ethics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS1128",
+    "name": "IT, Management and Organisation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS2102",
+    "name": "Requirements Analysis for Business IT Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS2108",
+    "name": "Full-stack Software Engineering for AI Solutions I",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS2109",
+    "name": "AI and Machine Learning Techniques I",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS2218",
+    "name": "Digital Platforms for Business",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS2238",
+    "name": "Economics of IT and AI",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS3103",
+    "name": "Digital Transformation and Leadership Communication",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS3107",
+    "name": "Data Engineering",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS3108",
+    "name": "Full-stack Software Engineering for AI Solutions II",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS3109",
+    "name": "AI and Machine Learning Techniques II",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS3150",
+    "name": "Digital Media Marketing",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS3240",
+    "name": "Digital Platform Strategy and Architecture",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS3251",
+    "name": "Principles of Technology Entrepreneurship",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4100",
+    "name": "IT Project Management",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4108",
+    "name": "AI Solutioning Capstone Project",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 8,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4151",
+    "name": "AIoT Solutions and Development",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4226",
+    "name": "Systematic Trading Strategies and Systems",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4228",
+    "name": "Information Technologies in Financial Services",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4231",
+    "name": "Information Security Management",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4233",
+    "name": "Legal Aspects of Information Technology",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4234",
+    "name": "Governance, Regulation, and Compliance Technology",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4236",
+    "name": "Cloud Services and Infrastructure Management",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4238",
+    "name": "Strategic Cybersecurity",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4243",
+    "name": "Digital Transformation Consulting",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4246",
+    "name": "Smart Systems and AI Governance",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4250",
+    "name": "IT-enabled Healthcare Solutioning",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4261",
+    "name": "Designing AI-driven Business Innovations",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4262",
+    "name": "Digital Product Management",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4301",
+    "name": "Agile IT with DevOps",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4302",
+    "name": "Blockchain and Distributed Ledger Technologies",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4303",
+    "name": "IT-mediated financial solutions and platforms",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4400",
+    "name": "Human-AI Interaction",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4401",
+    "name": "Generative AI and Business Applications",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4402",
+    "name": "Machine Learning with Unstructured Data",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS4403",
+    "name": "Agentic AI Solutions and Development",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5002",
+    "name": "Digital Transformation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5003",
+    "name": "Platform Design and Economy",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5005",
+    "name": "Digital Engagement",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5007",
+    "name": "Strategising for Global IT-enabled Business Success",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5008",
+    "name": "Technology Risk & Cyber Resilience",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5009",
+    "name": "Topics in Financial Technology Solutions",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5010",
+    "name": "AI Ethics and Governance",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5116",
+    "name": "Digital Entrepreneurship",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5126",
+    "name": "Hands-on with Applied Analytics",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5128",
+    "name": "Digital Innovation",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5151",
+    "name": "Cybersecurity Policy and Management",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5152",
+    "name": "Data-Driven Decision Making",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS5451",
+    "name": "AIoT Solutions and Development",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS6000",
+    "name": "Topics in Information Systems and Analytics Research",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 0,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS6001",
+    "name": "Qualitative Methods for IS Research",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS6002",
+    "name": "Quantitative Methods for IS Research",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS6003",
+    "name": "Contemporary Theories for IS Research",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS6004",
+    "name": "Econometrics for IS Research",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
+  },
+  {
+    "code": "IS6102",
+    "name": "TOPICS IN INFORMATION SYSTEMS II",
+    "description": "",
+    "directions": [],
+    "prerequisites": [],
+    "credits": 4,
+    "source_url": "https://www.comp.nus.edu.sg/cug/soc-sched/",
+    "updated_at": "2026-09-10"
   }
 ]

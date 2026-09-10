@@ -51,10 +51,11 @@ def test_parse_courses_can_collect_all_cs_courses():
       <tr><th>Module Code</th><th>Module Title</th><th>Units</th></tr>
       <tr><td>CS2030S</td><td>Programming Methodology II</td><td>Units = 4</td></tr>
       <tr><td>CS3244</td><td>Machine Learning</td><td>Units = 4</td></tr>
+      <tr><td>IS1118</td><td>交互设计</td><td>Units = 4</td></tr>
       <tr><td>MA1521</td><td>Calculus</td><td>Units = 4</td></tr>
     </table>
     """
 
     courses = parse_courses(html, None, "https://example.com/courses")
 
-    assert [course["code"] for course in courses] == ["CS2030S", "CS3244"]
+    assert [course["code"] for course in courses] == ["CS2030S", "CS3244", "IS1118"]

@@ -1,4 +1,4 @@
-"""Fetch a small, safe subset of NUS SoC course data."""
+"""Fetch a safe subset of NUS School of Computing course data."""
 
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 
 
 DEFAULT_URL = "https://www.comp.nus.edu.sg/cug/soc-sched/"
-DEFAULT_PREFIX = "CS"
+DEFAULT_PREFIXES = {"CS", "IS", "BT", "CP", "ES"}
 OUTPUT_FILE = Path(__file__).parents[1] / "data" / "courses.json"
 CODE_PATTERN = re.compile(r"\b([A-Z]{2,4})\s*([0-9]{4}[A-Z]?)\b", re.I)
 
@@ -89,7 +89,7 @@ def parse_courses(
                 continue
 
             code = next((normalize_code(cell) for cell in cells), None)
-            if not code or not code.startswith(DEFAULT_PREFIX):
+            if not code or not any(code.startswith(prefix) for prefix in DEFAULT_PREFIXES):
                 continue
             if wanted_codes is not None and code not in wanted_codes:
                 continue
@@ -182,7 +182,7 @@ def main() -> int:
     parser.add_argument(
         "--codes",
         nargs="+",
-        help="只同步指定课程；不提供时同步页面中所有 CS 课程",
+        help="只同步指定课程；不提供时同步页面中 CS/IS/BT/CP/ES 课程",
     )
     args = parser.parse_args()
 
