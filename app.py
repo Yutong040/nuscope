@@ -4,7 +4,7 @@ from pathlib import Path
 
 import streamlit as st
 from dotenv import load_dotenv
-from crew_pipeline import answer_question
+from crew_pipeline import answer_question, plan_courses
 
 
 load_dotenv()
@@ -27,7 +27,7 @@ st.title("🎓 NUScope Course Advisor")
 st.caption("基于 CrewAI 的 NUS 课程咨询原型")
 
 courses = load_courses()
-overview_tab, chat_tab = st.tabs(["📚 课程目录", "💬 AI 咨询"])
+overview_tab, chat_tab, plan_tab = st.tabs(["📚 课程目录", "💬 AI 咨询", "🗺️ 学习规划"])
 
 with overview_tab:
     st.subheader("NUS School of Computing 课程目录")
@@ -104,3 +104,21 @@ with chat_tab:
             st.session_state.messages.append(
                 {"role": "assistant", "content": answer}
             )
+
+with plan_tab:
+    st.subheader("生成课程学习规划")
+    st.caption("规划仅基于当前已同步的课程目录，最终选课请以 NUS 官方要求为准。")
+    goal = st.text_input("目标方向", placeholder="例如：Artificial Intelligence")
+    completed = st.text_input("已修课程", placeholder="例如：CS2030S, CS2040S")
+    course_count = st.slider("希望推荐的课程数量", min_value=1, max_value=6, value=3)
+
+    if st.button("生成学习规划", type="primary"):
+        if not goal.strip():
+            st.warning("请先填写目标方向。")
+        else:
+            with st.spinner("正在生成并审核学习规划..."):
+                try:
+                    plan = plan_courses(goal, completed, course_count, courses)
+                    st.markdown(plan)
+                except Exception as exc:
+                    st.error(f"运行失败：{exc}")
