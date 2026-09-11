@@ -4,9 +4,7 @@ from pathlib import Path
 
 import streamlit as st
 from dotenv import load_dotenv
-from crewai import Agent, Crew, Process, Task
-from crewai.llm import LLM
-from tools.course_search import search_courses
+from crew_pipeline import answer_question
 
 
 load_dotenv()
@@ -14,96 +12,95 @@ load_dotenv()
 st.set_page_config(
     page_title="NUScope Course Advisor",
     page_icon="🎓",
-    layout="centered",
+    layout="wide",
 )
 
 
-@st.cache_resource
-def build_advisor():
-    required = ["SOCLAAS_MODEL", "SOCLAAS_API_KEY", "SOCLAAS_BASE_URL"]
-    missing = [name for name in required if not os.getenv(name)]
-    if missing:
-        raise RuntimeError(f"缺少环境变量：{', '.join(missing)}")
-
-    llm = LLM(
-        model=f"openai/{os.getenv('SOCLAAS_MODEL')}",
-        api_key=os.getenv("SOCLAAS_API_KEY"),
-        base_url=os.getenv("SOCLAAS_BASE_URL"),
-    )
-
-    return Agent(
-        role="NUS Course Advisor",
-        goal="Help students find suitable courses based on reliable course data",
-        backstory=(
-            "You are an NUS academic advisor. "
-            "You must only use the courses returned by the search tool."
-        ),
-        llm=llm,
-        tools=[search_courses],
-        verbose=True,
-    )
+COURSE_FILE = Path(__file__).parent / "data" / "courses.json"
 
 
-def answer_question(question: str) -> str:
-    course_data = json.loads(
-        (Path(__file__).parent / "data" / "courses.json").read_text(
-            encoding="utf-8"
-        )
-    )
-
-    task = Task(
-        description=f"""
-        用户问题：{question}
-
-        请先使用 course_search 工具检索相关课程，再回答用户。
-        课程资料补充如下：{json.dumps(course_data, ensure_ascii=False)}
-
-        要求：
-        1. 必须先检索课程。
-        2. 只能使用工具返回的数据。
-        3. 不得编造课程信息。
-        4. 返回课程编号、名称、相关方向和先修要求。
-        5. 如果没有匹配结果，明确说明没有找到相关课程。
-        6. 使用中文回答。
-        """,
-        expected_output="一份基于检索结果的中文课程建议。",
-        agent=build_advisor(),
-    )
-
-    crew = Crew(
-        agents=[build_advisor()],
-        tasks=[task],
-        process=Process.sequential,
-        verbose=False,
-    )
-    return str(crew.kickoff())
+def load_courses() -> list[dict]:
+    return json.loads(COURSE_FILE.read_text(encoding="utf-8"))
 
 
 st.title("🎓 NUScope Course Advisor")
 st.caption("基于 CrewAI 的 NUS 课程咨询原型")
 
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+courses = load_courses()
+overview_tab, chat_tab = st.tabs(["📚 课程目录", "💬 AI 咨询"])
 
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+with overview_tab:
+    st.subheader("NUS School of Computing 课程目录")
+    st.write(f"当前数据包含 **{len(courses)}** 门课程。")
 
-question = st.chat_input("例如：我想学习人工智能，应该关注哪些课程？")
+    prefixes = sorted({course["code"][:2] for course in courses})
+    filter_col, search_col = st.columns([1, 2])
+    with filter_col:
+        selected_prefix = st.selectbox("学院方向", ["全部"] + prefixes)
+    with search_col:
+        catalog_query = st.text_input("搜索课程", placeholder="课程编号或名称，例如 CS3244")
 
-if question:
-    st.session_state.messages.append({"role": "user", "content": question})
-    with st.chat_message("user"):
-        st.markdown(question)
+    filtered_courses = courses
+    if selected_prefix != "全部":
+        filtered_courses = [
+            course for course in filtered_courses
+            if course["code"].startswith(selected_prefix)
+        ]
+    if catalog_query.strip():
+        query = catalog_query.strip().lower()
+        filtered_courses = [
+            course for course in filtered_courses
+            if query in f"{course['code']} {course['name']}".lower()
+        ]
 
-    with st.chat_message("assistant"):
-        with st.spinner("正在检索课程并生成建议..."):
-            try:
-                answer = answer_question(question)
-            except Exception as exc:
-                st.error(f"运行失败：{exc}")
-                st.stop()
-        st.markdown(answer)
-        st.session_state.messages.append(
-            {"role": "assistant", "content": answer}
+    st.write(f"找到 **{len(filtered_courses)}** 门课程")
+    if filtered_courses:
+        selected_code = st.selectbox(
+            "选择课程查看详情",
+            [course["code"] for course in filtered_courses],
         )
+        selected_course = next(
+            course for course in filtered_courses if course["code"] == selected_code
+        )
+        detail_col, source_col = st.columns([2, 1])
+        with detail_col:
+            st.markdown(f"### {selected_course['code']} · {selected_course['name']}")
+            st.write(selected_course.get("description") or "暂无课程描述")
+            st.write(f"**方向：** {', '.join(selected_course.get('directions', [])) or '暂无数据'}")
+            st.write(f"**先修要求：** {', '.join(selected_course.get('prerequisites', [])) or '暂无数据'}")
+            st.write(f"**学分：** {selected_course.get('credits') or '暂无数据'}")
+        with source_col:
+            st.markdown("#### 数据来源")
+            st.write(f"更新时间：{selected_course.get('updated_at', '未知')}")
+            if selected_course.get("source_url"):
+                st.link_button("打开官方来源", selected_course["source_url"])
+    else:
+        st.info("没有找到匹配课程。")
+
+with chat_tab:
+    st.subheader("AI 课程咨询")
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+
+    question = st.chat_input("例如：我想学习人工智能，应该关注哪些课程？")
+
+    if question:
+        st.session_state.messages.append({"role": "user", "content": question})
+        with st.chat_message("user"):
+            st.markdown(question)
+
+        with st.chat_message("assistant"):
+            with st.spinner("正在检索课程并生成建议..."):
+                try:
+                    answer = answer_question(question, courses)
+                except Exception as exc:
+                    st.error(f"运行失败：{exc}")
+                    st.stop()
+            st.markdown(answer)
+            st.session_state.messages.append(
+                {"role": "assistant", "content": answer}
+            )
